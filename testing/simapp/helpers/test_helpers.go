@@ -13,8 +13,8 @@ import (
 )
 
 // SimAppChainID hardcoded chainID for simulation
-const (
-	DefaultGenTxGas = 1000000
+var (
+	DefaultGenTxGas = uint64(1000000)
 	SimAppChainID   = "simulation-app"
 )
 
